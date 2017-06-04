@@ -1,0 +1,138 @@
+.fter{
+    background:#F5F5F5;
+    margin-top:30px;
+}
+.fter>.footer-top{
+    height: 100px;
+    border-bottom: 1px solid #E5E5E5;
+    line-height: 100px;
+}
+.fter>.footer-top>.footer-img{
+    width: 1200px;
+    height: 100px;
+    margin:0 auto;
+}
+.footer-img>ul{
+    padding: 19px 0;
+}
+.footer-img>ul:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.footer-img>ul>li{
+    float:left;
+}
+
+.footer-img>ul>li>a{
+    display: inline-block;
+    color:#444444;
+    font-size: 18px;
+    font-weight: bold;
+    width: 128px;
+    height: 62px;
+    line-height: 62px;
+    padding-left:72px;
+    background-image: url("../imgs/logo.png");
+    background-repeat: no-repeat;
+    transition: transform .8s ease;
+}
+.footer-img>ul>li>a:hover{
+    color: #ED4044;
+    transform: translateY(-5px);
+}
+.footer-img>ul>li:first-child>a{
+    background-position: 0 0;
+}
+.footer-img>ul>li:nth-child(2)>a{
+    background-position: 0 -82px;
+}
+.footer-img>ul>li:nth-child(3)>a{
+    background-position: 0 -163px;
+}
+.footer-img>ul>li:nth-child(4)>a{
+    background-position: 0 -244px;
+}
+.footer-img>ul>li:nth-child(5)>a{
+    background-position: 0 -325px;
+}
+.footer-img>ul>li:last-child>a{
+     background-position: 0 -404px;
+ }
+/************************************************/
+.fter>.footer-wrapper{
+    width: 1200px;
+    margin:0 auto;
+    padding-top:25px;
+}
+.footer-wrapper>.info{
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 25px;
+}
+.footer-wrapper>.info:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.footer-wrapper>.info>.info-left>div{
+    padding-left:30px;
+}
+.footer-wrapper>.info>.info-left>div p{
+    margin-top:15px;
+}
+.footer-wrapper>.info>.pay-stle,.peisong-style,.shopping-guide,.about-us{
+    margin-right:85px;
+}
+.footer-wrapper>.info>.pay-stle{
+    margin-left:40px;
+}
+.footer-wrapper>.info>.app-code{
+    margin-right:36px;
+}
+.footer-wrapper>.info>.app-code,.wx-code{
+    margin-top:-5px;
+}
+.footer-wrapper>.info>.app-code img,.wx-code img{
+    margin-top: 10px;
+}
+.footer-wrapper>.flink{
+    padding-top:20px;
+}
+.footer-wrapper>.flink>.fwrapper{
+    width:1150px;
+    height:20px;
+}
+.footer-wrapper>.flink>.fwrapper>.brand-link>a{
+    color:#999;
+    display:inline-block;
+    margin:0 15px 10px 0;
+}
+.footer-wrapper>.flink>.fwrapper>.brand-link>a:hover{
+    color:#ED4044;
+    text-decoration: underline;
+
+}
+.footer-wrapper>.flink>.click-arrow{
+    top:18px;
+    right:47px;
+}
+.footer-wrapper>.flink>.click-arrow>.footer-arrow{
+    display:inline-block;
+    width:6px;
+    height:6px;
+    border-right:1px solid #a0a0a0;
+    border-bottom:1px solid #a0a0a0;
+}
+.footer-wrapper>.flink>.click-arrow>.footer-arrow-down{
+    transform:rotate(-135deg);
+}
+.footer-arrow-up{
+    transform:rotate(45deg);
+}
+.footer-wrapper>.support{
+    margin-top:20px;
+}
+.footer-wrapper>.footer-copy{
+    padding:20px 0 40px;
+    color:#000;
+}
